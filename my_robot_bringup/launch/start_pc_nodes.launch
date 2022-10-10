@@ -1,0 +1,4 @@
+<launch>
+        <node name ="motor_controller_pc" pkg="raspi_robot" type = "motor_controller_pc.py" />
+        <node name ="arduino_receiver" pkg="raspi_robot" type = "arduino_receiver.py" />
+</launch>
