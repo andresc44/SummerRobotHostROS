@@ -1,0 +1,8 @@
+<launch>
+	<node name ="light_subscriber" pkg="pi_bot_car" type = "lights.py" />
+        <node name ="good_listener" pkg="pi_bot_car" type = "sound.py" />
+        <node name ="infrared_publisher" pkg="pi_bot_car" type = "infrared_publisher.py" />
+        <node name ="ultrasonic_publisher" pkg="pi_bot_car" type = "ultrasonic_publisher.py" />
+        <node name ="motor_controller_pi" pkg="pi_bot_car" type = "motor_controller_pi.py" />
+
+</launch>
